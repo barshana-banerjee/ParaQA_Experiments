@@ -61,7 +61,7 @@ class VerbalDataset(object):
         and cover all entities. This should improve model
         performance.
         """ 
-        list_ent = ['he','she','him','her','they','them','the country','the city','the person','the organisation','the organization','the location']
+        list_ent = ['he','she','him','her','they','them']
         # Try EARL for covering entities
         # EARL results are serialized
         data = self.earl_entities[uid]
